@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f8f8f8;
+}
+
+.tile {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #333;
+    transition: background-color 0.3s;
+}
+
+.tile.active {
+    background-color: #4caf50;
+    color: white;
+}
