@@ -1,0 +1,8 @@
+# Ignore build outputs
+**/bin/
+**/obj/
+# Ignore user secrets and database files
+*.db
+*.db-journal
+# VS Code
+.vscode/
